@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.row:last-child {
+    margin-bottom: 0px;
+}
+
+[class*="col-"] {
+    padding: 5px;
+}
+
+.box1 {
+    background-color: #FBA342; 
+    height: 100px;
+}
+
+.box2 {
+    background-color: #D7E933; 
+    height: 400px;
+}
+
+.box3 {
+    background-color: #4B8ACD; 
+    height: 300px;
+}
+
+.box4 {
+    background-color: #E3E3E3; 
+    height: 200px;
+}
